@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useMemo } from "react";
 import CourseCard from "./CourseCard";
 import Pagination from "./Pagination";
-import coursesData from "../data/courses.json";
+import coursesData from "../data/Courses.json";
 
 function CourseGrid() {
   const [courses, setCourses] = useState<any[]>([]);
